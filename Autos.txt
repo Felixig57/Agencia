@@ -1,0 +1,9 @@
+662|Nissan|Versa|2023|Gris|320000|Nuevo
+4|Chevrolet|Onix|2024|Negro|380000|Nuevo
+5|Toyota|Corolla|2023|Plata|480000|Usado
+7|Mazda|Mazda3|2024|Rojo|530000|Nuevo
+8|Honda|Civic|2023|Negro|550000|Usado
+9|Hyundai|Elantra|2024|Blanco|460000|Nuevo
+11|Ford|Mustang|2025|Amarillo|1200000|Nuevo
+13|Volkswagen|Tiguan|2023|Gris|610000|Usado
+14|Chevrolet|Silverado|2024|Rojo|950000|Nuevo

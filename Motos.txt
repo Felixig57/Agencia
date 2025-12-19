@@ -1,0 +1,13 @@
+2|Honda|CB 650R|2025|700000|Rojo|Nuevo|649
+3|Kawasaki|Ninja 400|2023|140000|Verde|Usado|399
+4|Suzuki|GSX-R750|2024|350000|Azul|Nuevo|750
+5|Ducati|Panigale V4|2025|850000|Rojo|Nuevo|1103
+6|BMW|S1000RR|2023|650000|Blanco|Usado|999
+7|KTM|Duke 390|2024|130000|Naranja|Nuevo|373
+8|Harley-Davidson|Sportster S|2023|420000|Negro|Usado|1250
+9|Triumph|Street Triple RS|2024|380000|Plata|Nuevo|765
+10|Aprilia|RS 660|2023|290000|Rojo/Negro|Usado|659
+11|Yamaha|MT-09|2024|310000|Gris|Nuevo|890
+12|Honda|CBR 1000RR|2023|580000|Rojo/Azul|Usado|999
+13|Kawasaki|Z900|2025|280000|Negro/Verde|Nuevo|948
+14|Suzuki|V-Strom 650|2024|240000|Amarillo|Nuevo|645
