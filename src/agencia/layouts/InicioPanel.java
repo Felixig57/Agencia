@@ -26,19 +26,256 @@ public class InicioPanel extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel7 = new javax.swing.JPanel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        contenedorResumen2 = new javax.swing.JPanel();
+        jLabel7 = new javax.swing.JLabel();
+        disponibilidad2 = new javax.swing.JPanel();
+        jLabel8 = new javax.swing.JLabel();
+        lblAutosDisponibles2 = new javax.swing.JLabel();
+        ventas = new javax.swing.JPanel();
+        jLabel9 = new javax.swing.JLabel();
+        lblVentasMes = new javax.swing.JLabel();
+        citas = new javax.swing.JPanel();
+        jLabel10 = new javax.swing.JLabel();
+        lblCitasdelMes = new javax.swing.JLabel();
+        clientes = new javax.swing.JPanel();
+        jLabel11 = new javax.swing.JLabel();
+        lblClientesNuevos = new javax.swing.JLabel();
+
+        jLabel12.setText("Ventas");
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel12)
+                .addContainerGap(147, Short.MAX_VALUE))
+        );
+
+        jLabel1.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        jLabel1.setText("Bienvenido, DanielDev");
+
+        contenedorResumen2.setBackground(new java.awt.Color(0, 123, 255));
+
+        jLabel7.setText("Resumen");
+
+        disponibilidad2.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel8.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel8.setText("Autos disponibles");
+
+        lblAutosDisponibles2.setForeground(new java.awt.Color(0, 0, 0));
+        lblAutosDisponibles2.setText("320");
+
+        javax.swing.GroupLayout disponibilidad2Layout = new javax.swing.GroupLayout(disponibilidad2);
+        disponibilidad2.setLayout(disponibilidad2Layout);
+        disponibilidad2Layout.setHorizontalGroup(
+            disponibilidad2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(disponibilidad2Layout.createSequentialGroup()
+                .addComponent(jLabel8)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(disponibilidad2Layout.createSequentialGroup()
+                .addGap(31, 31, 31)
+                .addComponent(lblAutosDisponibles2, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(42, Short.MAX_VALUE))
+        );
+        disponibilidad2Layout.setVerticalGroup(
+            disponibilidad2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(disponibilidad2Layout.createSequentialGroup()
+                .addComponent(jLabel8)
+                .addGap(31, 31, 31)
+                .addComponent(lblAutosDisponibles2)
+                .addGap(0, 37, Short.MAX_VALUE))
+        );
+
+        ventas.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel9.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel9.setText("Ventas del mes");
+
+        lblVentasMes.setForeground(new java.awt.Color(0, 0, 0));
+        lblVentasMes.setText("59");
+
+        javax.swing.GroupLayout ventasLayout = new javax.swing.GroupLayout(ventas);
+        ventas.setLayout(ventasLayout);
+        ventasLayout.setHorizontalGroup(
+            ventasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ventasLayout.createSequentialGroup()
+                .addGroup(ventasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(lblVentasMes, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel9))
+                .addGap(0, 70, Short.MAX_VALUE))
+        );
+        ventasLayout.setVerticalGroup(
+            ventasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(ventasLayout.createSequentialGroup()
+                .addComponent(jLabel9)
+                .addGap(28, 28, 28)
+                .addComponent(lblVentasMes)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+
+        citas.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel10.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel10.setText("Citas del mes");
+
+        lblCitasdelMes.setForeground(new java.awt.Color(0, 0, 0));
+        lblCitasdelMes.setText("15");
+
+        javax.swing.GroupLayout citasLayout = new javax.swing.GroupLayout(citas);
+        citas.setLayout(citasLayout);
+        citasLayout.setHorizontalGroup(
+            citasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(citasLayout.createSequentialGroup()
+                .addComponent(jLabel10)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(citasLayout.createSequentialGroup()
+                .addGap(40, 40, 40)
+                .addComponent(lblCitasdelMes, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(67, Short.MAX_VALUE))
+        );
+        citasLayout.setVerticalGroup(
+            citasLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(citasLayout.createSequentialGroup()
+                .addComponent(jLabel10)
+                .addGap(29, 29, 29)
+                .addComponent(lblCitasdelMes)
+                .addGap(0, 39, Short.MAX_VALUE))
+        );
+
+        clientes.setBackground(new java.awt.Color(255, 255, 255));
+
+        jLabel11.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel11.setText("Clientes nuevos");
+
+        lblClientesNuevos.setForeground(new java.awt.Color(0, 0, 0));
+        lblClientesNuevos.setText("20");
+
+        javax.swing.GroupLayout clientesLayout = new javax.swing.GroupLayout(clientes);
+        clientes.setLayout(clientesLayout);
+        clientesLayout.setHorizontalGroup(
+            clientesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(clientesLayout.createSequentialGroup()
+                .addComponent(jLabel11)
+                .addGap(0, 68, Short.MAX_VALUE))
+            .addGroup(clientesLayout.createSequentialGroup()
+                .addGap(22, 22, 22)
+                .addComponent(lblClientesNuevos, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        clientesLayout.setVerticalGroup(
+            clientesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(clientesLayout.createSequentialGroup()
+                .addComponent(jLabel11)
+                .addGap(30, 30, 30)
+                .addComponent(lblClientesNuevos)
+                .addGap(0, 38, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout contenedorResumen2Layout = new javax.swing.GroupLayout(contenedorResumen2);
+        contenedorResumen2.setLayout(contenedorResumen2Layout);
+        contenedorResumen2Layout.setHorizontalGroup(
+            contenedorResumen2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(contenedorResumen2Layout.createSequentialGroup()
+                .addGap(43, 43, 43)
+                .addGroup(contenedorResumen2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(contenedorResumen2Layout.createSequentialGroup()
+                        .addComponent(jLabel7)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(contenedorResumen2Layout.createSequentialGroup()
+                        .addComponent(disponibilidad2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(50, 50, 50)
+                        .addComponent(ventas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(50, 50, 50)
+                        .addComponent(citas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE)
+                        .addComponent(clientes, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(65, 65, 65))))
+        );
+        contenedorResumen2Layout.setVerticalGroup(
+            contenedorResumen2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(contenedorResumen2Layout.createSequentialGroup()
+                .addGap(10, 10, 10)
+                .addComponent(jLabel7)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(contenedorResumen2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(contenedorResumen2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(ventas, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(disponibilidad2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(citas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(clientes, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(18, Short.MAX_VALUE))
+        );
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(49, 49, 49)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(contenedorResumen2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(35, 35, 35))
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addGap(51, 51, 51)
+                .addComponent(contenedorResumen2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(117, 117, 117)
+                .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(124, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPanel citas;
+    private javax.swing.JPanel clientes;
+    private javax.swing.JPanel contenedorResumen;
+    private javax.swing.JPanel contenedorResumen1;
+    private javax.swing.JPanel contenedorResumen2;
+    private javax.swing.JPanel content;
+    private javax.swing.JPanel content1;
+    private javax.swing.JPanel disponibilidad;
+    private javax.swing.JPanel disponibilidad1;
+    private javax.swing.JPanel disponibilidad2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JLabel lblAutosDisponibles;
+    private javax.swing.JLabel lblAutosDisponibles1;
+    private javax.swing.JLabel lblAutosDisponibles2;
+    private javax.swing.JLabel lblCitasdelMes;
+    private javax.swing.JLabel lblClientesNuevos;
+    private javax.swing.JLabel lblVentasMes;
+    private javax.swing.JPanel ventas;
     // End of variables declaration//GEN-END:variables
 }

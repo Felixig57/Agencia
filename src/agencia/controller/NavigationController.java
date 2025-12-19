@@ -9,5 +9,5 @@ package agencia.controller;
  * @author felix
  */
 public class NavigationController {
-    
+
 }

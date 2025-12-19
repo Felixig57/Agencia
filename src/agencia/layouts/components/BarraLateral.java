@@ -33,185 +33,21 @@ public class BarraLateral extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
-        Inicio = new javax.swing.JButton();
-        btnVehiculos = new javax.swing.JButton();
-        btnClientes = new javax.swing.JButton();
-        btnVentas = new javax.swing.JButton();
-        btnServicios = new javax.swing.JButton();
-        btnEmpleados = new javax.swing.JButton();
-        btnReportes = new javax.swing.JButton();
-        jcbVehiculos = new javax.swing.JComboBox<>();
-        Jbtn_nuevo = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
-
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        jPanel1.setBackground(java.awt.Color.white);
-
-        Inicio.setBackground(new java.awt.Color(0, 123, 255));
-        Inicio.setText("Inicio");
-        Inicio.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                InicioActionPerformed(evt);
-            }
-        });
-
-        btnVehiculos.setBackground(new java.awt.Color(0, 123, 255));
-        btnVehiculos.setText("Sucursales");
-        btnVehiculos.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnVehiculosActionPerformed(evt);
-            }
-        });
-
-        btnClientes.setBackground(new java.awt.Color(0, 123, 255));
-        btnClientes.setText("Clientes");
-        btnClientes.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnClientesActionPerformed(evt);
-            }
-        });
-
-        btnVentas.setBackground(new java.awt.Color(0, 123, 255));
-        btnVentas.setText("Ventas");
-
-        btnServicios.setBackground(new java.awt.Color(0, 123, 255));
-        btnServicios.setText("Servicios");
-
-        btnEmpleados.setBackground(new java.awt.Color(0, 123, 255));
-        btnEmpleados.setText("Empleados");
-
-        btnReportes.setBackground(new java.awt.Color(0, 123, 255));
-        btnReportes.setText("Reportes");
-
-        jcbVehiculos.setBackground(new java.awt.Color(0, 123, 255));
-        jcbVehiculos.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "-Selecciona-", "Automoviles", "Motocicletas", "Camiones" }));
-        jcbVehiculos.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jcbVehiculosActionPerformed(evt);
-            }
-        });
-
-        Jbtn_nuevo.setBackground(new java.awt.Color(0, 0, 0));
-        Jbtn_nuevo.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        Jbtn_nuevo.setForeground(new java.awt.Color(255, 255, 255));
-        Jbtn_nuevo.setText("Cerrar Sesion");
-        Jbtn_nuevo.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Jbtn_nuevoActionPerformed(evt);
-            }
-        });
-
-        jLabel2.setText("Gran Auto");
-
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(25, 25, 25)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(Inicio, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnVehiculos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnClientes, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnVentas, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnServicios, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnEmpleados, javax.swing.GroupLayout.DEFAULT_SIZE, 126, Short.MAX_VALUE)
-                        .addComponent(btnReportes, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jcbVehiculos, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(Jbtn_nuevo, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(29, Short.MAX_VALUE))
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(15, 15, 15)
-                .addComponent(jLabel2)
-                .addGap(26, 26, 26)
-                .addComponent(Inicio, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jcbVehiculos, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnClientes, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnVentas, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnServicios, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnEmpleados, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnReportes, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(btnVehiculos, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 172, Short.MAX_VALUE)
-                .addComponent(Jbtn_nuevo, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(29, 29, 29))
-        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGap(0, 180, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGap(0, 640, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void InicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InicioActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_InicioActionPerformed
-
-    private void btnVehiculosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVehiculosActionPerformed
-        // TODO add your handling code here:
-        Sucursales pantallaSucursales = new Sucursales();
-        pantallaSucursales.setVisible(true);
-        this.dispose();
-
-    }//GEN-LAST:event_btnVehiculosActionPerformed
-
-    private void btnClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClientesActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnClientesActionPerformed
-
-    private void jcbVehiculosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcbVehiculosActionPerformed
-        // TODO add your handling code here:
-        // Convertir a String el select item
-        String opcion = (String) jcbVehiculos.getSelectedItem();
-        switch (opcion) {
-            case "Automoviles":
-            Vehiculos pantallaAutomoviles = new Vehiculos();
-            pantallaAutomoviles.setVisible(true);
-            this.dispose();
-            break;
-            case "Motocicletas":
-            Motocicletas pantallaMotos = new Motocicletas();
-            pantallaMotos.setVisible(true);
-            this.dispose();
-            break;
-            case "Camiones":
-            Camiones pantallaCamiones = new Camiones();
-            pantallaCamiones.setVisible(true);
-            this.dispose();
-            break;
-            default:
-            JOptionPane.showMessageDialog(null,"Selecciona una de las opciones!!");
-        }
-    }//GEN-LAST:event_jcbVehiculosActionPerformed
-
-    private void Jbtn_nuevoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Jbtn_nuevoActionPerformed
-        // TODO add your handling code here:
-        Login FrameLogin = new Login();
-        FrameLogin.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_Jbtn_nuevoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -249,16 +85,5 @@ public class BarraLateral extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    public javax.swing.JButton Inicio;
-    private javax.swing.JButton Jbtn_nuevo;
-    public javax.swing.JButton btnClientes;
-    public javax.swing.JButton btnEmpleados;
-    public javax.swing.JButton btnReportes;
-    public javax.swing.JButton btnServicios;
-    public javax.swing.JButton btnVehiculos;
-    public javax.swing.JButton btnVentas;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JComboBox<String> jcbVehiculos;
     // End of variables declaration//GEN-END:variables
 }
