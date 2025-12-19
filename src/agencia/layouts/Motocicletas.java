@@ -2,14 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package agencia.layouts.vehiculos;
+package agencia.layouts;
 
 import agencia.dao.ConsultasMotos;
 import agencia.model.Motos;
 import agencia.layouts.vehiculos.Vehiculos;
 import agencia.layouts.Camiones;
-import agencia.layouts.Camiones;
-import agencia.layouts.Menu;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.util.Vector;
@@ -442,7 +440,7 @@ public class Motocicletas extends javax.swing.JFrame {
 
     private void btnInicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInicioActionPerformed
         // TODO add your handling code here:
-        Menu pantallaMenu = new Menu();
+        Dashboard pantallaMenu = new Dashboard();
         pantallaMenu.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_btnInicioActionPerformed

@@ -4,8 +4,7 @@
  */
 package agencia.layouts.auth;
 
-import agencia.layouts.Menu;
-import java.awt.Color;
+import agencia.layouts.Dashboard;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
@@ -189,7 +188,7 @@ public class Login extends javax.swing.JFrame {
      
             if (Usuario.equals("DanielDev") && Contrasena.equals("daniel2026")||Usuario.equals("") && Contrasena.equals("")) {
                 JOptionPane.showMessageDialog(this, "Inicio de sesion Exitoso!!");
-                Menu FrameMenu = new Menu();
+                Dashboard FrameMenu = new Dashboard();
                 FrameMenu.setVisible(true);
                 this.dispose();
             } else {

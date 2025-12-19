@@ -2,9 +2,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-package agencia.layouts.operaciones;
+package agencia.layouts;
 
-import agencia.layouts.components.Menu;
 import java.awt.Color;
 import java.awt.Image;
 import javax.swing.ImageIcon;
@@ -198,7 +197,7 @@ public class Sucursales extends javax.swing.JFrame {
 
     private void btnRegresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegresarActionPerformed
         // TODO add your handling code here:
-        Menu pantallaMenu = new Menu();
+        Dashboard pantallaMenu = new Dashboard();
         pantallaMenu.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_btnRegresarActionPerformed
