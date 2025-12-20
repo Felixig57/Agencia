@@ -2,12 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JPanel.java to edit this template
  */
-package agencia.layouts.components;
-
-/**
- *
- * @author felix
- */
+package agencia.layouts.components;  
+import agencia.layouts.auth.Login;
+import agencia.layouts.vehiculos.Camiones;
+import agencia.layouts.vehiculos.Motocicletas;
+import agencia.layouts.vehiculos.Vehiculos;
+import javax.swing.JOptionPane;
+ 
 public class BarraLateralPanel extends javax.swing.JPanel {
 
     /**
@@ -35,7 +36,7 @@ public class BarraLateralPanel extends javax.swing.JPanel {
         btnEmpleados = new javax.swing.JButton();
         btnReportes = new javax.swing.JButton();
         jcbVehiculos = new javax.swing.JComboBox<>();
-        Jbtn_nuevo = new javax.swing.JButton();
+        btnCerrarSesion = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
         jPanel1.setBackground(java.awt.Color.white);
@@ -84,13 +85,13 @@ public class BarraLateralPanel extends javax.swing.JPanel {
             }
         });
 
-        Jbtn_nuevo.setBackground(new java.awt.Color(0, 0, 0));
-        Jbtn_nuevo.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        Jbtn_nuevo.setForeground(new java.awt.Color(255, 255, 255));
-        Jbtn_nuevo.setText("Cerrar Sesion");
-        Jbtn_nuevo.addActionListener(new java.awt.event.ActionListener() {
+        btnCerrarSesion.setBackground(new java.awt.Color(0, 0, 0));
+        btnCerrarSesion.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        btnCerrarSesion.setForeground(new java.awt.Color(255, 255, 255));
+        btnCerrarSesion.setText("Cerrar Sesion");
+        btnCerrarSesion.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                Jbtn_nuevoActionPerformed(evt);
+                btnCerrarSesionActionPerformed(evt);
             }
         });
 
@@ -113,7 +114,7 @@ public class BarraLateralPanel extends javax.swing.JPanel {
                         .addComponent(btnEmpleados, javax.swing.GroupLayout.DEFAULT_SIZE, 126, Short.MAX_VALUE)
                         .addComponent(btnReportes, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jcbVehiculos, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(Jbtn_nuevo, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(btnCerrarSesion, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(29, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
@@ -138,7 +139,7 @@ public class BarraLateralPanel extends javax.swing.JPanel {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnVehiculos, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 172, Short.MAX_VALUE)
-                .addComponent(Jbtn_nuevo, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnCerrarSesion, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(29, 29, 29))
         );
 
@@ -160,9 +161,7 @@ public class BarraLateralPanel extends javax.swing.JPanel {
 
     private void btnVehiculosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVehiculosActionPerformed
         // TODO add your handling code here:
-        Sucursales pantallaSucursales = new Sucursales();
-        pantallaSucursales.setVisible(true);
-        this.dispose();
+       
     }//GEN-LAST:event_btnVehiculosActionPerformed
 
     private void btnClientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClientesActionPerformed
@@ -172,7 +171,7 @@ public class BarraLateralPanel extends javax.swing.JPanel {
     private void jcbVehiculosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jcbVehiculosActionPerformed
         // TODO add your handling code here:
         // Convertir a String el select item
-        String opcion = (String) jcbVehiculos.getSelectedItem();
+     /*   String opcion = (String) jcbVehiculos.getSelectedItem();
         switch (opcion) {
             case "Automoviles":
             Vehiculos pantallaAutomoviles = new Vehiculos();
@@ -191,20 +190,20 @@ public class BarraLateralPanel extends javax.swing.JPanel {
             break;
             default:
             JOptionPane.showMessageDialog(null,"Selecciona una de las opciones!!");
-        }
+        }*/
     }//GEN-LAST:event_jcbVehiculosActionPerformed
 
-    private void Jbtn_nuevoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Jbtn_nuevoActionPerformed
+    private void btnCerrarSesionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCerrarSesionActionPerformed
         // TODO add your handling code here:
         Login FrameLogin = new Login();
         FrameLogin.setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_Jbtn_nuevoActionPerformed
+    }//GEN-LAST:event_btnCerrarSesionActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton Inicio;
-    private javax.swing.JButton Jbtn_nuevo;
+    private javax.swing.JButton btnCerrarSesion;
     public javax.swing.JButton btnClientes;
     public javax.swing.JButton btnEmpleados;
     public javax.swing.JButton btnReportes;
@@ -213,6 +212,10 @@ public class BarraLateralPanel extends javax.swing.JPanel {
     public javax.swing.JButton btnVentas;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JComboBox<String> jcbVehiculos;
+    public javax.swing.JComboBox<String> jcbVehiculos;
     // End of variables declaration//GEN-END:variables
+
+    private void dispose() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 }

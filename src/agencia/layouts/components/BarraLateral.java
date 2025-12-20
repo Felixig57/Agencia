@@ -4,8 +4,8 @@
  */
 package agencia.layouts.components;
 
-import agencia.layouts.Camiones;
-import agencia.layouts.Motocicletas;
+import agencia.layouts.vehiculos.Camiones;
+import agencia.layouts.vehiculos.Motocicletas;
 import agencia.layouts.Sucursales;
 import agencia.layouts.auth.Login;
 import agencia.layouts.vehiculos.Vehiculos;

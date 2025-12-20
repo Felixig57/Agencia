@@ -6,9 +6,7 @@ package agencia.layouts.vehiculos;
 
 import agencia.model.Autos;
 import agencia.dao.Consultas;
-import agencia.layouts.Camiones;
 import agencia.layouts.Dashboard;
-import agencia.layouts.Motocicletas;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.util.Vector;

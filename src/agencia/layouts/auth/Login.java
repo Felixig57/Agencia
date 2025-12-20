@@ -5,6 +5,7 @@
 package agencia.layouts.auth;
 
 import agencia.layouts.Dashboard;
+import agencia.layouts.main.MainDashBoard;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
@@ -188,7 +189,7 @@ public class Login extends javax.swing.JFrame {
      
             if (Usuario.equals("DanielDev") && Contrasena.equals("daniel2026")||Usuario.equals("") && Contrasena.equals("")) {
                 JOptionPane.showMessageDialog(this, "Inicio de sesion Exitoso!!");
-                Dashboard FrameMenu = new Dashboard();
+                MainDashBoard FrameMenu = new MainDashBoard();
                 FrameMenu.setVisible(true);
                 this.dispose();
             } else {
