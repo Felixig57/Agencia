@@ -6,10 +6,8 @@ package agencia.layouts;
 
 import agencia.layouts.auth.Login;
 import agencia.layouts.vehiculos.Motocicletas;
-import agencia.layouts.Sucursales;
 import agencia.layouts.vehiculos.Vehiculos;
 import agencia.layouts.vehiculos.Camiones;
-import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 

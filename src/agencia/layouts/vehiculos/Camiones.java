@@ -15,7 +15,6 @@ public class Camiones extends javax.swing.JFrame {
      */
     public Camiones() {
         initComponents();
-        this.setLocationRelativeTo(null);
     }
 
     /**
